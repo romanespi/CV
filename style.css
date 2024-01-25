@@ -47,22 +47,47 @@ body{
     border-radius: 20%;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    background-color: rgb(12, 12, 12);
+    border-radius: .5% / 5%;
+    margin-top: 4rem;
+}
+
 footer ul{
     display: flex;
     list-style: none;
+    margin: 0rem;
+    padding: 0rem;
 }
 
 footer ul li{
     display: flex;
-    align-items: center;
-    margin: 0rem;
-    padding: 0rem;
-
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 footer ul li a{
-    margin-right: .6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0rem;
+    padding: .7rem;
 }
+
+footer ul li a span{
+    color: rgb(194, 194, 182);
+    margin-right: .5rem;
+}
+
+footer ul li a span:hover{
+    color: rgb(229, 229, 214);
+}
+
 
 .icon{
     width: 10%;
