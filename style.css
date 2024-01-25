@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     font-size: 16px;
+    
     font-family: sans-serif;
 }
 
@@ -11,14 +12,59 @@ html {
 }
 
 body{
+    margin: 2.5rem 5rem;
+    padding: 1rem 2rem;
+    background-color: rgb(25, 23, 23);
+    color:rgb(194, 194, 182);
+    border-radius: 1%;
+    box-shadow: 0 0 5px rgb(255, 255, 255, 0.5);
+}
+
+.profile-name{
+    display: flex;
+    align-items: center;
+}
+
+.profile-name div{
+    margin-left: 2rem;
+}
+
+.profile-name div h1{
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+
+.profile-name div h2{
+    margin-top: 0rem;
+    padding-top: 0rem;
+    font-weight: 100;
+    font-size: medium;
+    font-style: italic;
 }
 
 .image-profile{
-    width: 20%;
-    border-radius: 100%;
+    width: 15%;
+    border-radius: 20%;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+}
+
+footer ul li{
+    display: flex;
+    align-items: center;
+    margin: 0rem;
+    padding: 0rem;
+
+}
+
+footer ul li a{
+    margin-right: .6rem;
 }
 
 .icon{
-    width: 3%;
+    width: 10%;
     border-radius: 100%;
 }
