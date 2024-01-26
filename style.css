@@ -43,8 +43,29 @@ body{
 }
 
 .image-profile{
-    width: 15%;
-    border-radius: 20%;
+    max-width: 150px;
+    border-radius: 5% / 3.75%;
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+.aptitude {
+    display: flex;
+}
+
+.formation {
+    display: flex;
+}
+
+.formation h3 {
+    padding-bottom: 0rem;
+    margin-bottom: .2rem;
+}
+
+.skills {
+    display: flex;
 }
 
 footer {
