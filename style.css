@@ -12,7 +12,8 @@ html {
 }
 
 body{
-    margin: 2.5rem 5rem;
+    max-width: 50rem;
+    margin: 2rem auto;
     padding: 1rem 2rem;
     background-color: rgb(25, 23, 23);
     color:rgb(194, 194, 182);
@@ -51,12 +52,22 @@ h2 {
     margin-top: 2rem;
 }
 
+.personal-data {
+    
+}
+
 .aptitude {
     display: flex;
+    justify-content: space-between;
+}
+
+.aptitude ul {
+    flex: 1;
 }
 
 .formation {
     display: flex;
+    justify-content: space-between;
 }
 
 .formation h3 {
@@ -64,8 +75,17 @@ h2 {
     margin-bottom: .2rem;
 }
 
+.formation ul {
+    flex: 1;
+}
+
 .skills {
     display: flex;
+    justify-content: space-between;
+}
+
+.skills ul{
+    flex: 1;
 }
 
 footer {
