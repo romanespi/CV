@@ -157,6 +157,7 @@ h2 {
     justify-content: space-between;
     background-color: rgb(12, 12, 12);
     border-radius: 1%;
+    padding-right: .5rem;
 }
 
 .formation h3 {
@@ -191,6 +192,7 @@ h2 {
     justify-content: space-between;
     background-color: rgb(12, 12, 12);
     border-radius: 1%;
+    padding-right: .5rem;
 }
 
 .experience h3 {
