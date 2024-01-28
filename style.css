@@ -99,7 +99,7 @@ h2 {
         flex-direction: column;
     }
 
-    .footer ul {
+    footer ul {
         flex-direction: column;
     }
 }
